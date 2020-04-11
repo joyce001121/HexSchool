@@ -39,13 +39,10 @@ display:flex ;
 flex-flow: row wrap; (1+2) 
 1.flex-director 
 2.flex-wrap 
-
-align-self: flex-start,center,stretch,flex-end,baseline;
-align-items: ... (單一項目的位置)
-align-content: ...(內容全部項目的置中)
-justify-content: space-around (全部項目的空間分配)
-
-
+justify-content: 主軸對齊
+align-items(交錯軸對齊):flex-start,center,stretch,flex-end,baseline;
+?align-self: flex-start,center,stretch,flex-end,baseline;
+?align-content: ...(內容全部項目的置中)
 
 
 >>install vscode extension:preview on web server

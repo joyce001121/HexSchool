@@ -1,0 +1,24 @@
+body {
+  font-family: "微軟正黑體";
+  color: #37523d;
+}
+----------------------------
+>>Flex 軸線觀念 
+display:flex ; 
+flex-flow: row wrap; (1+2) 
+1.flex-director 
+2.flex-wrap 
+justify-content: 主軸對齊
+align-items(交錯軸對齊):flex-start,center,stretch,flex-end,baseline;
+?align-self: flex-start,center,stretch,flex-end,baseline;
+?align-content: ...(內容全部項目的置中)
+
+-----------------
+<div class="wrap">
+    <div class="header" ></div>
+    <div class="content"></div>
+    <div class="footer"></div>
+</div> 
+-----------------
+<span>aaaaaa</span>
+
