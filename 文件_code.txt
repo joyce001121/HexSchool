@@ -2,6 +2,8 @@ body {
   font-family: "微軟正黑體";
   color: #37523d;
 }
+-----------------
+遵循標籤的語意化不但有利於網頁的 SEO??
 ----------------------------
 >>Flex 軸線觀念 
 display:flex ; 
@@ -21,4 +23,38 @@ align-items(交錯軸對齊):flex-start,center,stretch,flex-end,baseline;
 </div> 
 -----------------
 <span>aaaaaa</span>
+>> ul/Li 
+   list-style-type: disc;
+   list-style-position: outside;
+-----------------
+>> 刪除線與字不同顏色效果
+<div>
+   <span><span>真是很莫名其妙的效果<span></span>
+</div>
+div{
+    font-size:30px;     
+}
+div span{
+    color:red;
+    text-decoration: line-through;
+}
+div span span {
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+--------------------
+如果想去找他好好講,你其實有很好的立足點可以說
+
+
+
+
 
